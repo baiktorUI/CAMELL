@@ -95,7 +95,17 @@ const App = () => {
       </div>
 
       <div className="additional-box">
-        <img src={LogoImage} alt="Logo Quina Tongo" className="logo-image" />
+        <a 
+          href="https://cursa-camells.vercel.app/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img 
+            src={LogoImage} 
+            alt="Logo Quina Tongo" 
+            className="logo-image" 
+          />
+        </a>
       </div>
     </div>
   );
